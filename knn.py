@@ -31,11 +31,16 @@ print(Y)
 '''
 data = arff.loadarff('data2.arff')
 df = pd.DataFrame(data[0])
+#remove todas as linhas que tem um atributo NAN
+df = df.dropna()
 
-X = df.drop(columns=['NUMDEFECTS'])
+
+X = df.drop(columns=['Language'])
 print(X)
 
-Y = df['NUMDEFECTS']
+Y = df['Language'] = pd.to_numeric(df['Language'],downcast='float')
+
+#Y = df['Language'].values
 print(Y)
 
 
