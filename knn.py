@@ -1,6 +1,6 @@
 #base de dados escolhidas
-#DATATRIEVE Transition/Software defect prediction
-#Desharnais Class-level data for KC1 (Defect Count)/Software defect prediction
+#DATASET1: DATATRIEVE Transition/Software defect prediction
+#DATASET2: Desharnais Software Cost Estimation
 
 #biblioteca para importar formato arff
 from scipy.io import arff
