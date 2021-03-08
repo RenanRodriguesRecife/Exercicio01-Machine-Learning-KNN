@@ -93,7 +93,7 @@
 @attribute Mod_Rate numeric
 @attribute Mod_Know numeric
 @attribute ReusedLoC numeric
-@attribute Faulty6_1 {0, 1}
+@attribute Faulty6_1 numeric
 
 @data
 
